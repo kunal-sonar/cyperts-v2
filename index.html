@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>home</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="home page">
+    <meta name="keywords" content="mylaxx marketplace">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="./asset/css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./asset/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./asset/css/glide.theme.min.css">
+    <link rel="stylesheet" href="./asset/css/glide.core.min.css">
+
+</head>
+
+<body>
+
+    <header role="banner">
+        
+
+
+
+        <div class="header">
+            <div class="row ml-0 mr-0 pb-0">
+                <div class="col-lg-3 ">
+                    <div class="logo">
+                        <a href="" alt="homepage"><img src="./asset/img/site-logo.png"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 ">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <form method="POST" style="margin: auto" id="myForm" action="https://mylaxx.com/index.php/home/search_product">
+                                    <div class="search-bar row pt-lg-3">
+                                        <input class="col-9" type="search" name="searchvalue" id="someTextBox"
+                                               placeholder="Search for products, shops">
+                                        <button class="col-3 type="submit" name="search"
+                                                onclick="submitsearch()"><i class="fas fa-search"></i></button>
+
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="build-store pt-lg-4">
+                        <a href="#">
+                            <p style="font-size: 14px;">BUILD YOUR OWN STORE<br> WITHIN MINUTES!!!</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3">
+                    <div class="row">
+                        <div class="header-banner pt-lg-3">
+                            <div id="carouselExampleSlidesOnly" class="carousel1 slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="./asset/img/banners/clubbanner.png"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./asset/img/banners/competitionbanner.png"
+                                            alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./asset/img/banners/luckywinbanner.png"
+                                            alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./asset/img/banners/miningbanner.jpg"
+                                            alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./asset/img/banners/walletbanner.png"
+                                            alt="Third slide">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+
+
+
+
+
+
+            <label for="navigagtion-toggler"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" name="toggler" class="navigagtion-toggler" id="navigagtion-toggler">
+
+
+
+            <nav class="nav-bar ml-lg-3 mr-lg-3" role="navigation">
+
+                <ul class="nav-bar-list mb-0">
+
+                    <li class="nav-bar-list-item"><a
+                            href="https://mylaxx.com/index.php/home/category_product/Animals">Animals</a></li>
+                    <li class="nav-bar-list-item"><a
+                            href="https://mylaxx.com/index.php/home/category_product/demo">demo</a></li>
+                    <li class="nav-bar-list-item"><a
+                            href="https://mylaxx.com/index.php/home/category_product/Cloths">Cloths</a></li>
+                    <li class="nav-bar-list-item"><a
+                            href="https://mylaxx.com/index.php/home/category_product/Pen">Pen</a></li>
+                    <li class="nav-bar-list-item"><a
+                            href="https://mylaxx.com/index.php/home/category_product/wallets">wallets</a></li>
+
+                    <li class="nav-bar-list-item"><a href="https://mylaxx.com/index.php/Home/contact"
+                            class="support">SUPPORT</a></li>
+                    <li class="nav-bar-list-item"><a href="#" class="faq">FAQ</a></li>
+                    <li class="nav-bar-list-item">
+                    </li>
+                </ul>
+
+            </nav>
+            <!--navigation bar-->
+        </div><!-- header-->
+
+        <!--container-->    
+    </header>
+    <section>
+        <div class="container">
+
+            <ul class="shop-links-list">
+                <li class="shop-links-list-item"><a href="https://mylaxx.com/index.php/"
+                        class=" highlights ">Highlights</a></li>
+                <li class="shop-links-list-item"><a href="https://mylaxx.com/index.php/home/select_countries"
+                        class=" bold ">Shop Countries</a></li>
+                <li class="shop-links-list-item"><a href="https://mylaxx.com/index.php/home/select_categories"
+                        class=" bold ">Shop Categories</a></li>
+                <li class="shop-links-list-item"><a href="https://mylaxx.com/index.php/home/select_currencies"
+                        class=" bold ">Shop Currencies</a></li>
+                <li class="shop-links-list-item cryptocurrencies">
+                    <a href="#"><img
+                            src="./asset/img/AXchange-TOKEN.png"></a>
+                    <a href="#"><img
+                            src="./asset/img/cryptocurrency-blockchain.png"></a></li>
+                <li class="shop-links-list-item"><a href="https://github.com/MYLAXX/MYLAXX-STORE" class="mylaxx"
+                        target="_blank">Get Your MYLAXX Store</a></li>
+            </ul>
+
+        </div><!-- container -->
+    </section>
+
+
+    <section>
+        <div class="container no-mobile">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                        
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./asset/img/lowerbanner/p2p.png" alt="First slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="logo-carosual">
+                                        <img src="./asset/img/logo-blue-mylaxx.png" alt="">
+                                    </div>
+                                    <h2>SET UP YOUR OWN STORE WITHIN MINUTES</h3>
+                                        <button class="button-carosual"><a href="" target="_blank">GET YOUR OWN STORY
+                                                TODAY</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./asset/img/lowerbanner/robot.png" alt="Second slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="logo-carosual">
+                                        <img src="./asset/img/logo-blue-mylaxx.png" alt="">
+                                    </div>
+                                    <h2>SELL & BUY YOUR PRODUCT PEER TO PEER </h3>
+                                        <button class="button-carosual"><a href="" target="_blank">GET YOUR OWN STORY
+                                                TODAY</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./asset/img/lowerbanner/time.png" alt="Third slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="logo-carosual">
+                                        <img src="./asset/img/logo-blue-mylaxx.png" alt="">
+                                    </div>
+                                    <h2>REACH NEW AUDIENCE AROUND THE WORD </h3>
+                                        <button class="button-carosual"><a href="" target="_blank">GET YOUR OWN STORY
+                                                TODAY</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./asset/img/lowerbanner/world.png" alt="Forth slide">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <div class="logo-carosual">
+                                        <img src="./asset/img/logo-blue-mylaxx.png" alt="">
+                                    </div>
+                                    <h2>DECENTRALIZED MARKETPLACE <span>ZERO</span> PLATFORM FEE</h3>
+                                        <button class="button-carosual"><a href="" target="_blank">GET YOUR OWN STORY
+                                                TODAY</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <div class="gallery">
+
+                <div class="images images-2">
+                    <a href="#" class="grid-item featured-product-link" style="width: 100%;">
+                        <div>
+                            <span>featured products</span>
+                        </div>
+                        <div class="arrow">
+                            <i class="fas fa-angle-double-right"></i>
+                        </div>
+                    </a>
+                    <!--featured products button-->
+                    <div id="slide" class="owl-carousel owl-theme owl-loaded mt-3 pt-lg-1 pt-md-0">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/diego-molina-iO7w4xdcTtM-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/devin-avery-bMH8ub9z1_U-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newimages body-banner body-banner-2">
+                    <div class="grid-item slider-1" style="width: 100%;height: 100%;">
+                        <a href="#" class="grid-item week-product-link" style="width: 100%;">
+                            <div>
+                                <span>product of the week</span>
+                            </div>
+                            <div class="arrow">
+                                <i class="fas fa-angle-double-right"></i>
+                            </div>
+                        </a>
+                        <div id="carouselExampleIndicators1" class="carousel slides mt-2" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner single-feature-product">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="./asset/img/featureproducts/alexander-rotker-l8p1aWZqHvE-unsplash.jpg"
+                                        alt="First slide">
+                                       
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                        alt="Third slide">
+                                     
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                        alt="Third slide">
+                                      
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-under">
+                                <p>we sell best products and on heavy discounts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--container-->
+    </section>
+
+    <section>
+		<div class="container ">
+			<a href="#" class="premium-store">
+					<div>
+						<span href="#">Premium Store's</span>
+					</div>	
+					<div class="arrow">
+						<i class="fas fa-angle-double-right"></i>
+					</div>
+			</a><!--Premium Store's button-->
+			
+			<div class="gallery">
+				<div class="images images-1">
+					<div id="slide1" class="owl-carousel owl-theme owl-loaded mt-3 pt-lg-1 pt-md-0">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/diego-molina-iO7w4xdcTtM-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/devin-avery-bMH8ub9z1_U-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				<div class="newimages body-banner body-banner-1">
+               	<div class="grid-item slider-1" style="width: 100%;height: 100%;">
+					<div id="carouselExampleIndicators2" class="carousel slides mt-2" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner single-feature-product">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="./asset/img/featureproducts/alexander-rotker-l8p1aWZqHvE-unsplash.jpg"
+                                    alt="First slide">
+                                   
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                alt="Second slide">
+                                  
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                    alt="Third slide">
+                                  
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-under">
+                            <p>we sell best products and on heavy discounts</p>
+                        </div>
+                    </div>
+			</div>
+				</div>
+			</div>
+		</div><!--container-->
+    </section>  
+    
+    <section>
+		<div class="container ">
+			<a href="#" class="new-products">
+					<div>
+						<span>New Products</span>
+					</div>	
+					<div class="arrow">
+						<i class="fas fa-angle-double-right"></i>
+					</div>
+			</a><!--New Products button-->
+			
+			<div class="gallery">
+			
+				<div class="images images-2">
+                    <div id="slide2" class="owl-carousel owl-theme owl-loaded mt-3 pt-lg-1 pt-md-0">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/diego-molina-iO7w4xdcTtM-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/devin-avery-bMH8ub9z1_U-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/devin-avery-bMH8ub9z1_U-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts//barrett-ward-P44RIGl9V54-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/deanna-alys-6LBBOwkPzyQ-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="item"><img
+                                            src="./asset/img/featureproducts/diego-molina-iO7w4xdcTtM-unsplash.jpg"
+                                            alt=""></div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				<div class=" newimages body-banner body-banner-2">
+						<div class="grid-item slider-1" style="width: 100%;height: 100%;">
+                            <div id="carouselExampleIndicators3" class="carousel slides mt-2" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner single-feature-product">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100"
+                                            src="./asset/img/featureproducts/alexander-rotker-l8p1aWZqHvE-unsplash.jpg"
+                                            alt="First slide">
+                                          
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100"
+                                            src="./asset/img/featureproducts/alexander-rotker-l8p1aWZqHvE-unsplash.jpg"
+                                            alt="First slide">
+                                           
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100"
+                                            src="./asset/img/featureproducts/charles-deluvio-3IMl0kCxpHQ-unsplash.jpg"
+                                            alt="Third slide">
+                                          
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-under">
+                                    <p>we sell best products and on heavy discounts</p>
+                                </div>
+                            </div>
+			</div>
+			</div>
+			</div>
+		</div><!--container-->
+    </section>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-columns">
+
+                <div class="footer-column">
+                    <div class="column-title">about<span class="highlighted">mylaxx</span></div>
+                    <p>The ultimate end to end solution for a global, decentralized E-Commerce Marketplace using
+                        Cryptocurrency and a unified eco-system
+                    </p>
+                </div>
+
+                <div class="footer-column">
+                    <div class="column-title">mylaxx<span class="highlighted">info</span></div>
+                    <ul>
+                        <li><a href="#">AX-QT Wallet</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Need Bitcoin?</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="https://mylaxx.com/index.php/Home/contact">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <div class="column-title">mylaxx<span class="highlighted">partner</span></div>
+                    <ul>
+                        <li><a href="#">Axchange Exchange</a></li>
+                        <li><a href="#">Z-Pay Crypto Payment Solution</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <div class="column-title">social<span class="highlighted">links</span></div>
+                    <ul class="social-links">
+                        <li class="social-link"><a href="#"><img src="./asset/img/facebook.png"></a>
+                        </li>
+                        <li class="social-link"><a href="#"><img src="./asset/img/linkedin.png"></a>
+                        </li>
+                        <li class="social-link"><a href="#"><img
+                                    src="./asset/img/google.png"></a></li>
+                        <li class="social-link"><a href="#"><img
+                                    src="./asset/img/tumbler.png"></a></li>
+                        <li class="social-link"><a href="#"><img
+                                    src="./asset/img/twitter.png"></a></li>
+                        <li class="social-link"><a href="#"><img src="./asset/img/yahoo.png"></a></li>
+                      
+                        <!-- <li class="social-link"><a href="#"><img src="https://mylaxx.com/assets/web/img/vimeo.png"></a>
+                        </li>
+                        <li class="social-link"><a href="#"><img src="https://mylaxx.com/assets/web/img/vk.png"></a>
+                        </li>
+                        <li class="social-link"><a href="#"><img
+                                    src="https://mylaxx.com/assets/web/img/tumbler.png"></a></li>
+                        <li class="social-link"><a href="#"><img src="https://mylaxx.com/assets/web/img/yahoo.png"></a>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-copyright">
+                &copy 2019 MYLAXX - Asaex IT Solutions Inc. Marshall Islands, Reg.No. 97685
+            </div>
+
+        </div>
+        <!--footer container-->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="./asset/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./asset/js/glide.min.js"></script>
+    <script>
+        $("#slide").owlCarousel({
+            loop: true,
+            margin: 6,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 2,
+                    nav: true
+                },
+                800: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1366: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1440: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1900: {
+                    items: 3,
+                    nav: true,
+                    loop: true
+                }
+            }
+        })
+        $("#slide1").owlCarousel({
+            loop: true,
+            margin: 6,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 2,
+                    nav: true
+                },
+                800: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1366: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1440: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1900: {
+                    items: 3,
+                    nav: true,
+                    loop: true
+                }
+            }
+        })
+        $("#slide2").owlCarousel({
+            loop: true,
+            margin: 6,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+            ],
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                700: {
+                    items: 2,
+                    nav: true
+                },
+                800: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1366: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1440: {
+                    items: 2,
+                    nav: true,
+                    loop: true
+                },
+                1900: {
+                    items: 3,
+                    nav: true,
+                    loop: true
+                }
+            }
+        })
+        
+    </script>
+    <script>
+   $("#carouselExampleIndicators3").on("touchstart", function(event){
+        var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function(event){
+        var xMove = event.originalEvent.touches[0].pageX;
+        if( Math.floor(xClick - xMove) > 5 ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -5 ){
+            $(this).carousel('prev');
+        }
+    });
+    $("#carouselExampleIndicators3").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
+   $("#carouselExampleIndicators2").on("touchstart", function(event){
+        var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function(event){
+        var xMove = event.originalEvent.touches[0].pageX;
+        if( Math.floor(xClick - xMove) > 5 ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -5 ){
+            $(this).carousel('prev');
+        }
+    });
+    $("#carouselExampleIndicators2").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
+   $("#carouselExampleIndicators1").on("touchstart", function(event){
+        var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one("touchmove", function(event){
+        var xMove = event.originalEvent.touches[0].pageX;
+        if( Math.floor(xClick - xMove) > 5 ){
+            $(this).carousel('next');
+        }
+        else if( Math.floor(xClick - xMove) < -5 ){
+            $(this).carousel('prev');
+        }
+    });
+    $("#carouselExampleIndicators1").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
+        </script>
+
+</body>
+
+</html>
